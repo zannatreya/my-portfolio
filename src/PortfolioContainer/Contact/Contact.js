@@ -56,7 +56,7 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. Always available.
+            <b>What’s your story? Get in touch. Always available.</b> 
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input  type="text" placeholder="Name" name="user_name" />

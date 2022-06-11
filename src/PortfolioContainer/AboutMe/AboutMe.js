@@ -8,8 +8,12 @@ import img from "../../assets/img.jpg";
 const AboutMe = () => {
   return (
     <>
-        <h1 className="a-title">About Me</h1>
-     <div className="a">
+<h1 className="text-center text-[#207561] text-4xl lg:text-5xl">
+                About Me
+          </h1>
+          <div className="flex justify-center">
+            <span className="inline-block h-1 w-20 rounded-3xl bg-[#207561] mt-6 mb-3"></span>
+          </div>     <div className="a">
             
           <div className="a-left">
             <div className="a-card bg"></div>
@@ -22,8 +26,8 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="a-right">
-            <h1 >Zannatul Binta Bahar</h1>
-            <p className="a-sub">
+            <h1 className="text-3xl font-semibold">Zannatul Binta Bahar</h1>
+            <p className="a-sub text-xl">
             React Developer || Frontend Web Developer || Web Developer
 
             </p>

@@ -4,10 +4,15 @@ import "./Services.css";
 function Services() {
   return (
     <div className="service component__space " id="Services">
-
-      <div className="heading">
+<h1 className="text-center text-[#207561] text-4xl lg:text-5xl mt-12">
+                My Services
+          </h1>
+          <div className="flex justify-center">
+            <span className="inline-block h-1 w-20 rounded-3xl bg-[#207561] mt-6 mb-8"></span>
+          </div>
+      {/* <div className="heading">
         <h1 className="heading">My Services</h1>
-      </div>
+      </div> */}
 
       <div className="container">
         <div className="grid">

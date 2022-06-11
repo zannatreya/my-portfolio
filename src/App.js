@@ -3,24 +3,24 @@ import './App.css';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Home from './PortfolioContainer/Home/Home';
-import Testimonial from './PortfolioContainer/Testimonial/Testimonial';
-import Resume from './PortfolioContainer/Resume/Resume';
-import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
+// import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
 import Contact from './PortfolioContainer/Contact/Contact';
 import Footer from './PortfolioContainer/Footer';
 import Services from './PortfolioContainer/Services/Services';
-import ProgressBar from './PortfolioContainer/ProgressBar/ProgressBar';
+import MySkills from './PortfolioContainer/MySkills/MySkills';
+import Education from './PortfolioContainer/Education/Education';
+import About from './PortfolioContainer/AboutMe/About';
 
 
 function App() {
   return (
     <div>
     <Home/>
-    <AboutMe/>
+    <About/>
+    {/* <AboutMe/> */}
     <Services/>
-    <ProgressBar/>
-    <Resume/>
-    <Testimonial/>
+    <MySkills/>
+    <Education/>
     <Contact/>
     <Footer/>
       <ToastContainer />
