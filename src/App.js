@@ -9,6 +9,7 @@ import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
 import Contact from './PortfolioContainer/Contact/Contact';
 import Footer from './PortfolioContainer/Footer';
 import Services from './PortfolioContainer/Services/Services';
+import ProgressBar from './PortfolioContainer/ProgressBar/ProgressBar';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Home/>
     <AboutMe/>
     <Services/>
+    <ProgressBar/>
     <Resume/>
     <Testimonial/>
     <Contact/>
