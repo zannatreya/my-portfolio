@@ -65,7 +65,7 @@ export default function Profile() {
                         > Hire Me </button>
 
                         <a href="https://drive.google.com/file/d/1cqdUMi50JS36OyW645zqbr7Oq_RyfAgq/view?usp=sharing" target="_blank" rel="noreferrer">
-                            <button className="btn highlighted-btn">Get Resume</button>
+                            <button className="btn primary-btn">Get Resume</button>
                         </a>
                     </div>
                 </div>

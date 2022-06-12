@@ -5,20 +5,19 @@ import Home from './PortfolioContainer/Home/Home';
 // import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
 import Contact from './PortfolioContainer/Contact/Contact';
 import Footer from './PortfolioContainer/Footer';
-import Services from './PortfolioContainer/Services/Services';
 import MySkills from './PortfolioContainer/MySkills/MySkills';
 import Education from './PortfolioContainer/Education/Education';
-import About from './PortfolioContainer/AboutMe/About';
 import Projects from './PortfolioContainer/Projects/Projects';
+import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
+import Service from './PortfolioContainer/Services/Service';
 
 
 function App() {
   return (
     <div>
     <Home/>
-    <About/>
-    {/* <AboutMe/> */}
-    <Services/>
+    <AboutMe/>
+    <Service/>
     <MySkills/>
     <Projects/>
     <Education/>

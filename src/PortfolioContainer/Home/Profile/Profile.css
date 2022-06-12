@@ -36,6 +36,8 @@
     font-size: 19px;
     margin: 5px 0 0 0;
     font-family: "Poppins Light";
+    color: black;
+    font: bold;
   }
   .profile-options .highlighted-btn {
     margin: 0 0 0 28px;
@@ -113,7 +115,9 @@
     }
     .profile-options {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      
+      
     }
     .proflie-details {
       margin: 25px 0 0;
@@ -127,7 +131,7 @@
     }
   }
   
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 768px) {
     .profile-picture {
       height: 275px;
       width: 275px;
@@ -136,5 +140,6 @@
     .proflie-details {
       width: 95%;
     }
+    
   }
   

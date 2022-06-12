@@ -6,10 +6,6 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-// import facebook from "../../assets/icons/facebook.png";
-// import github from "../../assets/icons/github.png";
-// import linkedin from "../../assets/icons/linkedin.png";
-// import twitter from "../../assets/icons/twitter.png";
 
 const Footer = () => {
   return (
