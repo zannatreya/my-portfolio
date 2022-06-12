@@ -25,19 +25,16 @@ const Header = () => {
                 <a href='#home'>home</a>
               </li>
               <li>
-                <a href='#features'>features</a>
+                <a href='#home'>about</a>
               </li>
               <li>
-                <a href='#portfolio'>portfolio</a>
+                <a href='#portfolio'>projects</a>
               </li>
               <li>
-                <a href='#resume'>resume</a>
+                <a href='#resume'>skills</a>
               </li>
               <li>
-                <a href='#clients'>clients</a>
-              </li>
-              <li>
-                <a href='#blog'>blog</a>
+                <a href='#resume'>education</a>
               </li>
               <li>
                 <a href='#contact'>contact</a>

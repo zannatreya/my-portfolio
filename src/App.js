@@ -1,5 +1,4 @@
 import './App.css';
-// import PortfolioContainer from "./PortfolioContainer/PortfolioContainer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Home from './PortfolioContainer/Home/Home';
@@ -10,6 +9,7 @@ import Services from './PortfolioContainer/Services/Services';
 import MySkills from './PortfolioContainer/MySkills/MySkills';
 import Education from './PortfolioContainer/Education/Education';
 import About from './PortfolioContainer/AboutMe/About';
+import Projects from './PortfolioContainer/Projects/Projects';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
     {/* <AboutMe/> */}
     <Services/>
     <MySkills/>
+    <Projects/>
     <Education/>
     <Contact/>
     <Footer/>

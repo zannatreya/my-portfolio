@@ -81,7 +81,7 @@ button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
@@ -104,6 +104,8 @@ button {
     margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
+   
+
   }
 
   input {
@@ -115,5 +117,7 @@ button {
 
   button {
     margin-top: 10px;
+    
   }
+  
 }
