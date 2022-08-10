@@ -13,13 +13,13 @@ const Projects = () => {
         <h1 className="text-center text-[#207561] text-4xl lg:text-5xl mb-12">
           Projects
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 my-8 px-5 md:px-6 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-8 px-5 md:px-6 gap-8">
           {/* project-1 */}
-          <div className="card border shadow-md border-gray-200 rounded-md bg-white">
+          <div className=" card border shadow-md border-gray-200 rounded-md bg-white">
             <div className="p-3">
               <img
                 src={project1}
-                alt="Cyclex Tools"
+                alt=""
                 className="shadow-md border rounded-sm border-gray-100"
               />
             </div>
@@ -78,7 +78,7 @@ const Projects = () => {
             <div className="p-3">
               <img
                 src={project2}
-                alt="Automobile Inventory"
+                alt=""
                 className="shadow-md border rounded-sm border-gray-100"
               />
             </div>

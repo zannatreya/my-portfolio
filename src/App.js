@@ -10,6 +10,8 @@ import Education from './PortfolioContainer/Education/Education';
 import Projects from './PortfolioContainer/Projects/Projects';
 import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
 import Service from './PortfolioContainer/Services/Service';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 
 
 function App() {
@@ -22,7 +24,12 @@ function App() {
     <Projects/>
     <Education/>
     <Contact/>
+    <MessengerCustomerChat
+    pageId="107012672117270"
+    appId="586701279704824"
+  />,
     <Footer/>
+   
       <ToastContainer />
     </div>
   );
